@@ -130,6 +130,15 @@ extension UIColor {
         }
         
     }
+    
+    public static var background: UIColor {
+        switch designScheme{
+        case .dark, .khaki,.insight,.scy, .kilpi:
+            return UIColor.figma(FigmaColor.bG)
+        default:
+            return UIColor.figma(FigmaColor.gray1)
+        }
+    }
     public static var themeTyler96: UIColor {
         switch designScheme{
         case .dark, .khaki,.insight,.scy:
