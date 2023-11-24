@@ -74,6 +74,7 @@ extension UIColor {
     public static let themeWhite50 = UIColor(hex: 0xffffff, alpha: 0.5)
     public static let themeSteel10 = UIColor(hex: 0x73798c, alpha: 0.1)
     public static let themeSteel20 = UIColor(hex: 0x73798c, alpha: 0.2)
+    public static let themeSteel30 = UIColor(hex: 0x73798c, alpha: 0.3)
     public static let themeGray50 = UIColor(hex: 0x808085, alpha: 0.5)
     public static var themeYellow50:UIColor{
         UIColor.figma(FigmaColor.accent).withAlphaComponent(0.5)
@@ -88,6 +89,10 @@ extension UIColor {
     public static let themeStronbuy = UIColor(hex: 0x1a60ff)
     public static let themeSteelDark10 = UIColor(hex: 0x1c1f27)
     public static let themeSteelLight10 = UIColor(hex: 0xd6d7dd)
+    public static let themeBlack10 = UIColor(hex: 0x000000, alpha: 0.1)
+    public static let themeBlack20 = UIColor(hex: 0x000000, alpha: 0.2)
+    public static let themeLagunaD = UIColor(hex: 0x4a98e9)
+    public static let themeLagunaL = UIColor(hex: 0x4692da)
 }
 
 extension UIColor {
@@ -147,6 +152,9 @@ extension UIColor {
             traits.userInterfaceStyle == .dark ? dark : light
         }
     }
+    public static var themeBlackTenTwenty: UIColor { color(dark: .themeBlack10, light: .themeBlack20) }
+    public static var themeLaguna: UIColor { color(dark: .themeLagunaD, light: .themeLagunaL) }
+
 
 }
 
