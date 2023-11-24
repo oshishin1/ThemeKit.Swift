@@ -130,7 +130,7 @@ open class ThemeViewController: UIViewController {
     open override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .themeTyler
+        view.backgroundColor = .background
     }
 
     override open var preferredStatusBarStyle: UIStatusBarStyle {
