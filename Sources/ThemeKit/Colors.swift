@@ -22,23 +22,23 @@ extension Color {
     public static let themeYellow50 = Color.themeYellow.opacity(0.5)
     public static let themeRed50 = Color.themeRed.opacity(0.5)
 
-    public static let themeJacob = Color("Jacob", bundle: Bundle.module)
-    public static let themeRemus = Color("Remus", bundle: Bundle.module)
-    public static let themeLucian = Color("Lucian", bundle: Bundle.module)
-    public static let themeLeah = Color("Leah", bundle: Bundle.module)
-    public static let themeAndy = Color("Andy", bundle: Bundle.module)
-    public static let themeBlackTenTwenty = Color("BlackTenTwenty", bundle: Bundle.module)
-    public static let themeBran = Color("Bran", bundle: Bundle.module)
-    public static let themeClaude = Color("Claude", bundle: Bundle.module)
-    public static let themeHelsing = Color("Helsing", bundle: Bundle.module)
-    public static let themeJeremy = Color("Jeremy", bundle: Bundle.module)
-    public static let themeLaguna = Color("Laguna", bundle: Bundle.module)
-    public static let themeLawrence = Color("Lawrence", bundle: Bundle.module)
-    public static let themeLawrencePressed = Color("LawrencePressed", bundle: Bundle.module)
-    public static let themeNina = Color("Nina", bundle: Bundle.module)
-    public static let themeRaina = Color("Raina", bundle: Bundle.module)
-    public static let themeTyler = Color("Tyler", bundle: Bundle.module)
-    public static let themeTyler96 = Color("Tyler96", bundle: Bundle.module)
+    public static var themeJacob:Color { return Color(UIColor.themeJacob)}
+    public static var themeRemus:Color { return Color(UIColor.themeRemus)}
+    public static var themeLucian:Color { return Color(UIColor.themeLucian)}
+    public static var themeLeah:Color { return Color(UIColor.themeLeah)}
+    public static var themeAndy:Color { return Color(UIColor.themeAndy)}
+    public static var themeBlackTenTwenty:Color { return Color(UIColor.themeBlackTenTwenty)}
+    public static var themeBran:Color { return Color(UIColor.themeBran)}
+    public static var themeClaude:Color { return Color(UIColor.themeClaude)}
+    public static var themeHelsing:Color { return Color(UIColor.themeHelsing)}
+    public static var themeJeremy:Color { return Color(UIColor.themeJeremy)}
+    public static var themeLaguna:Color { return Color(UIColor.themeLaguna)}
+    public static var themeLawrence:Color { return Color(UIColor.themeLawrence)}
+    public static var themeLawrencePressed:Color { return Color(UIColor.themeLawrencePressed)}
+    public static var themeNina:Color { return Color(UIColor.themeNina)}
+    public static var themeRaina:Color { return Color(UIColor.themeRaina)}
+    public static var themeTyler:Color { return Color(UIColor.themeTyler)}
+    public static var themeTyler96:Color { return Color(UIColor.themeTyler96)}
 
     public static var themeBackgroundFromGradient: Color { .themeTyler }
     public static var themeBackgroundToGradient: Color { .themeHelsing }
