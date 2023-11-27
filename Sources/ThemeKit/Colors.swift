@@ -299,4 +299,14 @@ enum FigmaScheme: String{
         }
     }
     
+    
+     var mainNavigationBarStyle:UIBarStyle{
+         switch self{
+         case .light,.scylight,.insightlight,.kilpilight:
+             return .default
+         default:
+             return .black
+         }
+    }
+    
 }

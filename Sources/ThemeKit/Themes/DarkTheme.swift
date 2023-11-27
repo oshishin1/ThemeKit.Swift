@@ -1,9 +1,17 @@
 import UIKit
 
 class DarkTheme: ITheme {
-    let hudBlurStyle: UIBlurEffect.Style = .dark
-    let keyboardAppearance: UIKeyboardAppearance = .dark
-    let statusBarStyle: UIStatusBarStyle = .lightContent
-
+    var hudBlurStyle: UIBlurEffect.Style {
+        return designScheme.themeHud
+    }
+    var keyboardAppearance: UIKeyboardAppearance {
+        return designScheme.keyboardAppearance
+    }
+    var statusBarStyle: UIStatusBarStyle {
+        return designScheme.statusBarStyle
+    }
+    var navigationBarStyle:UIBarStyle{
+        return designScheme.mainNavigationBarStyle
+    }
     let alphaSecondaryButtonGradient: CGFloat = 0.4
 }
