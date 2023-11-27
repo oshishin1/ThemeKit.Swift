@@ -25,9 +25,10 @@ open class ThemeNavigationController: UINavigationController {
 
     private func commonInit() {
         navigationBar.prefersLargeTitles = true
-        navigationBar.tintColor = .background
+        navigationBar.tintColor = .themeJacob
         
         navigationBar.barStyle = Theme.current.navigationBarStyle
+        navigationBar.backgroundColor = .background
     }
 
     deinit {
