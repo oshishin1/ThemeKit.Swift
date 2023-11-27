@@ -42,7 +42,7 @@ extension Color {
 
     public static var themeBackgroundFromGradient: Color { .themeTyler }
     public static var themeBackgroundToGradient: Color { .themeHelsing }
-    public static var themeNavigationBarBackground: Color { .themeTyler96 }
+    public static var themeNavigationBarBackground: Color { return Color(UIColor.background) }
 }
 
 
@@ -172,7 +172,7 @@ extension UIColor {
     public static var themeBackgroundToGradient: UIColor { .themeHelsing }
 
     public static var themeInputFieldTintColor: UIColor { .themeJacob }
-    public static var themeNavigationBarBackground: UIColor { UIColor.themeTyler96 }
+    public static var themeNavigationBarBackground: UIColor { UIColor.background }
 }
 
 
