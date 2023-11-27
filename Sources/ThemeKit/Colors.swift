@@ -9,7 +9,7 @@ extension Color {
     public static let themeDarker = Color("Darker", bundle: Bundle.module)
     public static let themeSteel = Color("Steel", bundle: Bundle.module)
     public static let themeSteelLight = Color("SteelLight", bundle: Bundle.module)
-    public static let themeYellow = Color("Yellow", bundle: Bundle.module)
+    public static var themeYellow:Color {return  Color(UIColor.figma(FigmaColor.accent))} // = Color("Yellow", bundle: Bundle.module)
     public static let themeGreen = Color("Green", bundle: Bundle.module)
     public static let themeRed = Color("Red", bundle: Bundle.module)
     public static let themeStronbuy = Color("Stronbuy", bundle: Bundle.module)
